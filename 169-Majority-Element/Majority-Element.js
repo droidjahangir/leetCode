@@ -2,7 +2,7 @@ var majorityElement = function(nums) {
     const majority = Math.round(nums.length/2)
     let map = {}
     for (let i = 0; i < nums.length; i++) {
-        map[nums[i]] = map[nums[i]] === undefined ? 1 : map[nums[i]]++
+        map[nums[i]] = map[nums[i]] === undefined ? 1 : map[nums[i]] + 1
     }
     for (let key in map){
         if (map[key] >= majority){
