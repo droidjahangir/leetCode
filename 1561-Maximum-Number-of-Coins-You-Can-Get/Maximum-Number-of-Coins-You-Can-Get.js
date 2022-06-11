@@ -1,7 +1,5 @@
 var maxCoins = function(piles) {
-    piles.sort(function(a, b) {
-        return a - b;
-    })
+    piles.sort((a,b) => b - a)
     let count = 0
     let arr = []
     for (let i = 0, j = piles.length-1; i < piles.length/3; i++, j -= 2) {
