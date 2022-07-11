@@ -9,6 +9,8 @@ var maxSlidingWindow = function(nums, k) {
 
     for (let end = k; end < nums.length; end++) {
         let slide = nums.slice(end-k+1, end+1)
+        console.log("slide ", slide)
+        console.log("...slide ", ...slide)
         let slidingMax = Math.max(...slide)
         max.push(slidingMax)
     }
