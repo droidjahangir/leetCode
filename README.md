@@ -38,7 +38,7 @@ here pick() method just pick first element.
  
  **Unbalanced binary search tree**
  ![Unbalanced binary search tree](./images/unbalanced-tree.png)
- Balanced binary search tree gives us O(log N) complexity but unbalanced tree gives us O(n) time complexity but some algorithms help us to reduce complexity 
+ Balanced binary search tree gives us O(log N) complexity but unbalanced tree gives us O(n) time complexity but some algorithms help us to reduce complexity.
  
  AVL tree, Red-Black tree, B-tree algorithms turned unbalanced to balanced tree, then complexity reduced to O(log N)
  
