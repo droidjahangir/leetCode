@@ -48,7 +48,36 @@ here pick() method just pick first element.
 **Time complexity chart**
 ![Time complexity chart](./images/time-complexity-chart.png)
 
+**Binary Heep**
+room value is greater than total of child element value or vise versa. Insertion will happen from left to right. If insertion value break the rule then rearrange this heep. 
+![Binary heep](./images/heep.png)
 
+**priority queue**
+queue works like first in first out, In priority queue each node has some weight, which will prioritize to out, like if some VIP comes in a line then he/she will be out first. 
+![priority queue](./images/priority-queue.png)
+
+**trie**
+tries works in google search. trie help us find a word or part of a word exist in body of text. 
+![trie](./images/trie.png)
  
- 
- 
+### Graph
+**All those are graph**
+![graph](./images/graph.png)
+
+**graph edge vertex**
+![edge vertex](./images/graph-edge-vertex.png)
+
+**graph weighted**
+![weighted and unweighted graph](./images/graph-weighted.png)
+
+**directed graph**
+![directed graph](./images/graph-directed.png)
+
+**cyclic graph**
+![cyclic graph](./images/graph-cyclic.png) 
+
+**graph visual details**
+![graph visual details](./images/graph-visual.png)
+
+**graph code**
+![graph code](./images/graph-code.png)
