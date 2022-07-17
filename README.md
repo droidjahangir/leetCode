@@ -6,6 +6,8 @@ Best site for visualize data structure and algorithms : [visualAlgo](https://vis
 
 ##Big O Cheat Sheet:
 #### -Big Os-
+[bigocheatsheet](https://www.bigocheatsheet.com/)
+
 `O(1)` Constant- no loops
 
 `O(log N)` Logarithmic- usually searching algorithms have log n if they are sorted (Binary Search)
@@ -95,6 +97,9 @@ here pick() method just pick first element.
 **Time complexity chart**
 ![Time complexity chart](./images/time-complexity-chart.png)
 
+**array complexity cheatsheet**
+![array complexity](./images/array-sorting-algorithms.png)
+
 **Binary Heep**
 room value is greater than total of child element value or vise versa. Insertion will happen from left to right. If insertion value break the rule then rearrange this heep. 
 ![Binary heep](./images/heep.png)
@@ -137,3 +142,24 @@ tries works in google search. trie help us find a word or part of a word exist i
 
 **all algorithms**
 ![all algorithms and data structure](./images/datastructure.png)
+
+## sort
+
+almost 5 sorting algorithm are most useful, those are - 
+- Bubble sort
+- Insertion sort
+- Selection sort
+- Merge sort
+- Quick sort
+
+Quick sort and merge sort are most popular than others because 
+they have `O(n logn)` complexity that are better than `O(n^2)`
+
+![sort](./images/sort.png)
+
+**Bubble sort**
+![Bubble sort](./images/bubble-sort.png)
+
+
+
+
