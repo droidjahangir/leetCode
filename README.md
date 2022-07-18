@@ -160,6 +160,51 @@ they have `O(n logn)` complexity that are better than `O(n^2)`
 **Bubble sort**
 ![Bubble sort](./images/bubble-sort.png)
 
+**selection sort**
+![selection sort](./images/selection-sort.png)
 
+**insertion sort**
+If items are being almost sorted then insertion time complexity will be O(n).
+![insertion sort](./images/insertionsort.png)
 
+merge and quick sort used Divide and conquer technique to reduce time complexity to O(n log n)
+
+**merge sort**
+![merge sort](./images/Merge-Sort-Algorithm.png)
+
+**quick sort**
+Elements to the left of the pivot are smaller and right of the pivot are greater. 
+![quick sort 1](./images/quick1.png)
+![quick sort 2](./images/quick-2.png)
+
+#### When to use which sorting algorithms ?
+
+- Insertion sort should be used only for few items or items are being almost sorted then insertion sort quick faster. 
+- Never use Bubble sort and selection sort, only for use learning purposes, because it's never very efficient, time complexity `O(n^2)`.
+- merge and quick sort are most used sorting algorithms, If space complexity will be concern then quick sort will be good choice, because its space complexity is `O(log n)` 
+- Heep sort is best because its time complexity is `O(n log n)` and space complexity is `O(1)`
+
+**Count and Radix sort**
+![count and radix sort](./images/count-radix-sort.png)
+
+we can reduce time complexity from `O(n log n)` to `O(n)` by using counting or Radix sort because both are not comparison sorting algorithms, thy store the values in 0 or 1.
+
+1. Sort 10 schools around your house by distance: `insertion sort`
+
+2. eBay sorts listings by the current Bid amount: `radix or counting sort`
+3. Sort scores on ESPN : `Quick sort`
+
+4. Massive database (can't fit all into memory) needs to sort through past year's user data : `Merge Sort`
+
+5. Almost sorted Udemy review data needs to update and add 2 new reviews: `Insertion Sort`
+
+6. Temperature Records for the past 50 years in Canada : 
+`radix or counting Sort, 
+Quick sort if decimal places`
+
+7. Large user name database needs to be sorted. Data is very random : 
+`Quick sort`
+
+8. You want to teach sorting : 
+`Bubble sort`
 
