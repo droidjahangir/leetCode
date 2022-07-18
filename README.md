@@ -143,7 +143,7 @@ tries works in google search. trie help us find a word or part of a word exist i
 **all algorithms**
 ![all algorithms and data structure](./images/datastructure.png)
 
-## sort
+## sorting
 
 almost 5 sorting algorithm are most useful, those are - 
 - Bubble sort
@@ -207,4 +207,20 @@ Quick sort if decimal places`
 
 8. You want to teach sorting : 
 `Bubble sort`
+
+## Searching
+
+**search and traversal**
+1. Linear search
+2. Binary search
+3. Depth first search
+4. Breadth first search
+
+**Linear search**
+Searching element one by one
+![Linear search](./images/Linear-Search.png)
+
+`indexOf()`, `findIndex()`, `find()` and `includes()` methods used linear search.
+
+If data stored in sorted array then Bubble sort will be most efficient because Linear search take O(n) time complexity on the other hand Bubble sort take O(log n) time complexity.
 
