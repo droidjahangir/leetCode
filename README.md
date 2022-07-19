@@ -222,5 +222,71 @@ Searching element one by one
 
 `indexOf()`, `findIndex()`, `find()` and `includes()` methods used linear search.
 
-If data stored in sorted array then Bubble sort will be most efficient because Linear search take O(n) time complexity on the other hand Bubble sort take O(log n) time complexity.
+**Binary search**
+
+If data stored in sorted array then Bubble sort will be most efficient because Linear search take `O(n)` time complexity on the other hand Bubble sort take `O(log n)` time complexity.
+![binary search](./images/BinarySearch.png)
+
+**BFS DFS**
+
+- BFS traverse like left to right 
+- DFS traverse like top to bottom
+![dfs bfs](./images/bfs-dfs.png)
+
+**BFS**
+1. BFS is good for finding the shortest path
+2. Require more memory
+
+**DFS**
+1. DFS is good for finding a path exists or not
+2. need less memory
+3. If tree size is large then DFS getting slow compared to BFS
+
+**Use cases**
+
+```
+//If you know a solution is not far from the root of the tree:
+BFS
+
+//If the tree is very deep and solutions are rare, 
+BFS (DFS will take long time. )
+
+//If the tree is very wide:
+DFS (BFS will need too much memory)
+
+//If solutions are frequent but located deep in the tree
+DFS
+
+//determining whether a path exists between two nodes
+DFS
+
+//Finding the shortest path
+BFS
+```
+
+**DFS traverse**
+3 ways we can traverse DFS
+1. inorder - left-root-right
+2. preorder - root-left-right
+3. postorder - left-right-root
+
+![DFS traverse](./images/dfs-traverse.png)
+
+**Graph**
+
+for finding the shortest path, graph has two popular algorithms
+
+1. Dijkstra
+2. bellman ford
+
+**Dijkstra’s graph algorithms**
+
+Dijkstra algorithm can't handle negative value, when we doesn't need to handle negative value then 
+dijkstra algirithms is suitable for finding shortest path.
+![Dijkstra](./images/dijkstra.png)
+
+**bellman ford algorithms**
+
+when we need to handle negative value then bellman ford algorithms is suitable for finding the shortest path.
+![bellman ford](./images/bellman-ford.png)
 
