@@ -282,7 +282,7 @@ for finding the shortest path, graph has two popular algorithms
 **Dijkstra’s graph algorithms**
 
 Dijkstra algorithm can't handle negative value, when we doesn't need to handle negative value then 
-dijkstra algirithms is suitable for finding shortest path.
+dijkstra algorithm is suitable for finding the shortest path.
 ![Dijkstra](./images/dijkstra.png)
 
 **bellman ford algorithms**
