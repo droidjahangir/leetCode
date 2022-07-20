@@ -290,3 +290,14 @@ dijkstra algorithm is suitable for finding the shortest path.
 when we need to handle negative value then bellman ford algorithms is suitable for finding the shortest path.
 ![bellman ford](./images/bellman-ford.png)
 
+## Dynamic programming
+
+It is an optimization technique, using cache. Dynamic programming is way to solve problem by breaking it down into a collection of subproblem, 
+solving each of the sub problem just once and storing the solutions in case next time the same sub problems occures. 
+
+![](./images/fib.png)
+![](./images/dynamic.png)
+![](./images/dynamic-approach.png)
+
+
+
