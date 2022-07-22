@@ -57,6 +57,8 @@ O(a*b)
 ### Singly Linked List 
 ![singly linked list](./images/singly-linked-list.png)
 
+Sometimes we will find cycle in singly linked list. We will detact it through Fast and slow pointer called Floyd's Cycle-Finding Algorithm.
+
 ### Doubly linked list 
 ![doubly linked list](./images/doubly-linked-list.png)
 
