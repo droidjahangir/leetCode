@@ -234,6 +234,9 @@ If data stored in sorted array then Bubble sort will be most efficient because L
 
 - BFS traverse like left to right 
 - DFS traverse like top to bottom
+
+- BFS is iterative solution
+- DFS is recursive solution
 ![dfs bfs](./images/bfs-dfs.png)
 
 **BFS**
