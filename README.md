@@ -137,6 +137,7 @@ tries works in google search. trie help us find a word or part of a word exist i
 ![graph code](./images/graph-code.png)
 
 **recursion**
+normal recursion takes `O(n)` space complexity but tail recursion takes `O(1)` space complexity.
 ![uses of recursion](./images/recursion.png)
 
 **fibonacci**
