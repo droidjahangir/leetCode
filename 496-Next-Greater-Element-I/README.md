@@ -1,0 +1,3 @@
+Leetcode problem link below here...
+
+[496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
