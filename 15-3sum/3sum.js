@@ -1,21 +1,29 @@
 var threeSum = function(nums) {
-    const clone = [...nums];
-    nums.sort((a, b) => a - b);
-    for (let pointer = 0; pointer < clone.length-1; pointer++) {
-        let low = pointer+1, high = nums.length - 1;
-        while (low < high) {
-            if (nums[pointer] + nums[low] + nums[high] < 0) {
-                low++;
-            } else if (nums[pointer] + nums[low] + nums[high] > 0) {
-                high--;
-            } else {
-                if (nums[low] === nums[high]) {
-                    return [clone.indexOf(nums[pointer]),clone.indexOf(nums[low]), clone.indexOf(nums[high], clone.indexOf(nums[low]) + 1)];
+    nums.sort((a,b) => a - b);
+    const triplets = [];
+
+    for(let i=0; i < nums.length - 2; i++){
+        if(nums[i] !== nums[i-1]){
+            let left = i + 1;
+            let right = nums.length - 1;
+
+            while (left < right){
+                const currentSum = nums[i] + nums[left] + nums[right];
+                if (currentSum === 0){
+                    triplets.push([nums[i], nums[left], nums[right]]);
+                    while(nums[left] === nums[left + 1]) left ++
+                    while(nums[right] === nums[right - 1]) right --
+                    left ++;
+                    right --;
+                } else if(currentSum < 0) {
+                    left ++
+                } else if(currentSum > 0){
+                    right --
                 }
-                return [clone.indexOf(nums[pointer]),clone.indexOf(nums[low]), clone.indexOf(nums[high])];
             }
         }
     }
+    return triplets
 };
 
 console.log(threeSum([-1,0,1,2,-1,-4]))
