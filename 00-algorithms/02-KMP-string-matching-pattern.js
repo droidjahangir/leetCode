@@ -2,7 +2,7 @@ var strStr = function (haystack, needle) {
     if (needle === '') return 0
 
     // LPS --> Longest Prefix Suffix
-    const lps = new Array(needle).fill(0)
+    const lps = new Array(needle.length).fill(0)
 
     let prevLPS = 0,
         i = 1
